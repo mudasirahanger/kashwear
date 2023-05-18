@@ -1,0 +1,3441 @@
+/* Collection Page */
+.collection-row{
+	display: flex;
+  	margin: 0 20px 50px 20px;
+}
+.column-collection-filter{
+	flex: 16.67%;
+}
+.column-collection-products{
+	flex: 83.3%
+}
+.column-collection-products .collection-listing .product-list{
+	margin: 0;
+}
+
+.filter-wrapper{
+	padding: 15px;
+    background: #ddd;
+    margin: 0 15px;
+}
+.column-collection-filter .filters a:hover{
+	color: #666;
+}
+.column-collection-filter .filters .state{
+	float: right;
+}
+.column-collection-filter .tags.nav-row{
+	border: none;
+  	padding: 15px 30px;
+}
+.column-collection-filter .nav-row ul{
+	display: block;
+}
+.column-collection-filter .nav-row ul li {
+	text-align: left;
+  	display: block;
+}
+
+.column-collection-filter .tags .active a .x{
+	display: none;
+}
+.column-collection-filter .nav-row a {
+    padding: 5px 0;
+  	font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Cardo';
+}
+
+.column-collection-products .product-block .image-cont img{
+	max-height: 100%;
+}
+.article .container,
+#comments.container {
+    max-width: 1000px
+}
+
+.embroidery-list .block-inner {
+    height: auto!important
+}
+
+.embroidery-list .image-cont {
+    max-width: 100%!important
+}
+
+.embroidery-list .product-block {
+    width: 45%
+}
+
+.img-wrap img {
+    width: 100%;
+    filter: grayscale();
+    transition: all 0.3s;
+    cursor: pointer
+}
+
+.img-wrap:hover img {
+    filter: none
+}
+
+.img-wrap:hover .artisan-txt {
+    opacity: 1
+}
+
+.img-wrap {
+    position: relative;
+    text-align: center;
+    color: #fff
+}
+
+.img-wrap div {
+    position: absolute;
+    top: 45%;
+    opacity: 0;
+    padding: 5%;
+    background: rgba(0, 0, 0, .5);
+    transition: all 0.3s;
+    font-size: 15px;
+    line-height: 142%
+}
+
+.img-wrap img {
+    margin: .5% 0
+}
+
+.t-txt .upper-text,
+.t-txt .middle-txt,
+.t-txt .lower-text {
+    color: #444!important
+}
+
+.t-txt .lower-text {
+    font-size: 20px!important
+}
+
+.t-txt .upper-text {
+    font-size: 30px!important;
+    font-weight: 500
+}
+
+.t-txt .middle-txt {
+    font-size: 48px!important;
+    letter-spacing: 8px
+}
+
+.t-txt .t-s-link {
+    background: #444!important;
+    color: #fff!important;
+    padding: 2%!important;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 3% 2%
+}
+
+.t-txt {
+    padding: 0 34px;
+    width: 100%
+}
+
+.blog-text div {
+    padding: 10% 5% 10% 0
+}
+
+.blog-text-right div {
+    padding: 10% 0 10% 5%
+}
+
+.blog-text p,
+.blog-text-right p {
+    font-size: 16px;
+    color: #333
+}
+
+.blog-bg-1,
+.blog-bg-2,
+.blog-bg-3,
+.blog-bg-4,
+.blog-bg-g,
+.blog-bg-i,
+.blog-bg-5,
+.blog-bg-6,
+.blog-bg-7,
+.blog-bg-8,
+.blog-bg-9,
+.blog-bg-10 {
+    height: 535px
+}
+
+.blog-bg-g div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/fleecing.jpg?4727071025354355399) fixed center;
+    background-size: cover;
+    display: table
+}
+
+.blog-bg-1 div h1,
+.blog-bg-7 div h1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'lato'
+}
+
+.blog-bg-1 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/4_0ee99112-39de-47be-9bff-eef1d59db687.jpg?11471925189401980845) fixed center;
+    background-size: cover;
+    display: table
+}
+
+.blog-bg-i div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/3_2e1c3ea8-a0c7-4e81-9242-e81ff8e72f77.jpg?1115482791540947298) fixed center;
+    background-size: cover;
+    display: table
+}
+
+.blog-para span,
+.blog-para h1 {
+    color: #3e3e3e;
+    font-size: 24px;
+    font-weight: 600
+}
+
+.blog-bg-2 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/5_ef2c1360-3eb0-4c1e-a2a4-156db55fcd95.jpg?845341114610298439) fixed center;
+    background-size: cover
+}
+
+.blog-bg-3 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/DSCN0165.JPG?1115482791540947298) fixed center;
+    background-size: cover
+}
+
+.blog-bg-4 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?1115482791540947298) fixed center;
+    background-size: cover
+}
+
+.blog-bg-5 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/warp.jpg?3345164745314127270) fixed center;
+    background-size: cover
+}
+
+.blog-bg-6 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_0650.JPG?682549694411203356) fixed center;
+    background-size: cover
+}
+
+.blog-bg-7 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/9.jpg?682549694411203356) fixed center;
+    background-size: cover;
+    display: table
+}
+
+.blog-bg-8 div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url(https://purekashmir.com/cdn/shop/files/Stamp_Carving_5c6b15db-7bc5-41c6-a4d8-7178f811f31d.jpg?18265694308549185059) fixed center;
+    background-size: cover;
+    display: table
+}
+
+.blog-para {
+    width: 100%;
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center
+}
+
+.blog-para h1 {
+    padding: 2% 0;
+    font-family: 'lato';
+    ;
+    text-transform: uppercase
+}
+
+.blog-para div {
+    padding: 10%
+}
+
+.th-col-blog {
+    padding: 10% 0;
+    display: inline-block
+}
+
+.th-col-blog.no-padding {
+    padding: 0 0 10% 0;
+    font-family: roboto
+}
+
+.th-col-blog.no-padding div {
+    padding: 0
+}
+
+.th-col-blog.no-padding h1 {
+    font-family: roboto;
+    color: #eee
+}
+
+.th-col-blog div {
+    padding: 0
+}
+
+.th-col-blog span {
+    font-size: 44px;
+}
+
+.row-3box {
+    width: 98%;
+    margin: 5% 1%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-3box {
+   	flex: 1;
+}
+
+.col-3box .col3-img1,
+.col-3box .col3-img2,
+.col-3box .col3-img3 {
+    width: 90%;
+    padding-top: 90%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.col-3box .col3-img1 div,
+.col-3box .col3-img2 div,
+.col-3box .col3-img3 div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: table;
+    width: 90%;
+    margin: 0 auto
+}
+
+.col3-img2 {
+    background: url(https://purekashmir.com/cdn/shop/t/7/assets/home_ad_1.jpg?13158430172882544201);
+    background-size: cover;
+    background-position: right
+}
+
+.col3-img1 {
+    background: url(https://purekashmir.com/cdn/shop/files/loom_772166ed-df43-4ddc-9476-bc8eb8ab2e1e.jpg?13158430172882544201);
+    background-size: cover;
+    background-position: center
+}
+
+.col3-img3 {
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_1451_e69b357a-60b8-4c97-842f-afce60c6c507.JPG?13158430172882544201);
+    background-size: cover
+}
+
+.row-3box h2, .mont-h2 {
+    font-weight: 700;
+    font-size: calc(1.5vw + 1vh + .5vmin);
+    color: #000;
+  	text-align: center;
+}
+
+.row-3box h3 {
+    font-weight: 500;
+    font-size: calc(1vw + 1vh + .5vmin);
+    color: #000
+}
+
+.row-3box br {
+    line-height: 40px
+}
+
+.row{
+	display: flex;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+  	justify-content: space-evenly;
+}
+
+.col-4{
+	width: 32%;
+  	display: flex;
+  	margin-bottom: 0.9%;
+  	overflow: hidden;
+}
+.home-collection-flex img{
+	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+  	transition: 0.3s ease;
+}
+
+.home-intro-products{
+	margin: 50px auto;
+}
+
+.text-col{
+	align-items: center;
+}
+
+.home-collection-flex img:hover{
+	transform: scale(1.1);
+}
+.home-collection-text-wrapper{
+	padding: 12%;
+    background: #fff;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	width: 100%;
+}
+
+.home-collection-text-wrapper h3{
+	font-size: 2em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-collection-text-wrapper p{
+    font-size: clamp(1.1em, 2vw, 1.2em);
+    line-height: 1.7;
+    font-family: 'Montserrat';
+    color: #3d4c4f;
+    margin-bottom: 2em;
+}
+
+.home-collection-text-wrapper a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    max-width: 130px;
+    padding: 10px 20px;
+    border: 1px solid;
+    z-index: 2;
+}
+.home-collection-text-wrapper a:hover {
+    background: #3d4c4f;
+    color: #fff;
+    border-color: #3d4c4f;
+}
+
+/* Tablet */
+
+@media (min-width:767px) {
+
+ .jamawar-img .hero-heading h3{
+  	width: 50%;
+  }
+  	.making-sec{
+      width: 45%;
+      margin: 100px auto;
+    }
+    .f-right {
+        float: right!important
+    }
+    .outer-box .col-3,
+    .outer-box .col-9 {
+        float: left
+    }
+    .col-3 {
+        width: 25%!important
+    }
+    .col-9 {
+        width: 75%!important
+    }
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        float: left
+    }
+    .col-md-12 {
+        width: 100%
+    }
+    .col-md-11 {
+        width: 91.66666667%
+    }
+    .col-md-10 {
+        width: 83.33333333%
+    }
+    .col-md-9 {
+        width: 75%
+    }
+    .col-md-8 {
+        width: 66.66666667%
+    }
+    .col-md-7 {
+        width: 58.33333333%
+    }
+    .col-md-6 {
+        width: 49%;
+        margin: 0 .5%
+    }
+    .col-md-5 {
+        width: 41.66666667%
+    }
+    .col-md-4 {
+        width: 33.33333333%
+    }
+    .col-md-3 {
+        width: 25%
+    }
+    .col-md-2 {
+        width: 16.66666667%
+    }
+    .col-md-1 {
+        width: 8.33333333%
+    }
+}
+.margin-d-40{
+	margin: 0 40px;
+}
+@media (max-width:768px) {
+  .col-4{
+  	width: 100%;
+  }
+  .margin-d-40{
+	margin: 0 20px;
+	}
+  .collection-row{
+  	flex-direction: column;
+    margin: 0 0 50px 0;
+  }
+  .mobile-hidden{
+  	display:none;
+  }
+  .column-collection-filter{
+  	border-right: none;
+  }
+  .column-collections-filter .filters{
+  	margin: 0 27px;
+  }
+  
+    .row-3box br {
+        line-height: 14px
+    }
+    .img-wrap div {
+        opacity: 1
+    }
+    .t-txt .upper-text,
+    .t-txt .lower-text {
+        font-size: 18px!important
+    }
+    .t-txt .t-s-link {
+        font-size: 15px!important
+    }
+    .t-txt .middle-txt {
+        font-size: 25px!important;
+        letter-spacing: 0
+    }
+    .t-txt {
+        padding: 0
+    }
+    .Solid-col .col-md-4 {
+        width: 100%
+    }
+}
+
+@media (max-width:767px) {
+    .space .col-md-3 {
+        width: 98%!important
+    }
+    .blog-box h1 {
+        text-align: center;
+        padding: 2.5% 0;
+        text-transform: uppercase;
+        position: relative;
+        font-weight: 500;
+        letter-spacing: 4px;
+        font-size: 40px
+    }
+    .blog-txt p {
+        font-size: 14px
+    }
+}
+
+@media (max-width:767px) {
+    .outer-box {
+        display: inline;
+        width: 100%;
+        vertical-align: middle;
+        padding: 40px 0;
+        color: #000;
+        font-weight: 400;
+        letter-spacing: 0
+    }
+    .f-right {
+        float: none
+    }
+    .inner-box {
+        width: 95%;
+        margin: 0 auto
+    }
+    .outer-box span {
+        display: block!important
+    }
+    .half-width {
+        width: 90%
+    }
+    .offset-half {
+        margin-left: 5%
+    }
+}
+
+.black-cashmere-bg {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 670px;
+    min-height: 500px;
+    margin: -3px 0
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden
+}
+
+.ph-em li {
+    list-style: none;
+    color: #fff;
+    font-size: 15px
+}
+
+.w-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover
+}
+
+.wholesale-des {
+    background: url(https://purekashmir.com/cdn/shop/files/check_947f3c46-749d-4cd2-ba56-333310274b2b.jpg?1353283…);
+    background-size: cover;
+    background-position: center
+}
+
+.wholesale-des .bg-b {
+    background: rgba(0, 0, 0, .62)
+}
+
+.wholesale-des .blog-para p {
+    color: #fff;
+    font-family: roboto
+}
+
+.wholesale-des .blog-para span {
+    color: #eee;
+    font-family: roboto
+}
+
+.wholesale-des .blog-para div {
+    padding: 10% 10% 0 10%
+}
+
+.th-col-blog.no-padding div {
+    padding: 0
+}
+
+.outer-box.slide .overlay-text {
+    left: 0
+}
+
+.outer-box {
+    display: table-cell;
+    width: 45%;
+    vertical-align: middle;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px
+}
+
+.inner-box {
+    width: 85%;
+    margin: 0 auto
+}
+
+.outer-box h3,
+.outer-box p {
+    font-family: roboto
+}
+
+.outer-box h3 {
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 23px;
+    padding-bottom: 23px
+}
+
+.outer-box span {
+    display: flex
+}
+
+.outer-box p {
+    line-height: 1.2;
+    font-size: 12px
+}
+
+.blog-inner {
+    text-align: left
+}
+
+.blog-inner p {
+    font-size: 14px
+}
+
+.blog-inner span {
+    font-size: 20px
+}
+
+.wholesale-head {
+    font-size: 13px!important;
+    font-weight: 600
+}
+
+.ws-link-bg {
+    padding: 7% 10%;
+    background: rgba(0, 0, 0, .12);
+    font-family: roboto;
+    font-size: 12px;
+    color: #fff!important;
+    position: relative
+}
+
+.ws-link-bg:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 0%;
+    height: 4px;
+    z-index: 1;
+    transition: 0.3s ease-out
+}
+
+.ws-link-bg:hover:after {
+    width: 100%
+}
+
+.ws-link {
+    padding: 7% 10%;
+    font-family: roboto;
+    font-size: 12px;
+    color: #fff!important;
+    position: relative;
+    transition: 0.3s ease-out
+}
+
+.ws-link:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    width: 0;
+    height: 4px;
+    z-index: 1;
+    transition: 0.3s ease-out
+}
+
+.ws-link:hover:after {
+    width: 100%
+}
+
+.wholesale-sec-0 {
+    background: url(https://purekashmir.com/cdn/shop/files/banner_09e9b839-350e-4144-85dd-b56ad540aa63.jpg?7614675089574388890);
+    background-size: cover;
+    background-position: center
+}
+
+.wholesale-sec-cashmere {
+    background: url(https://purekashmir.com/cdn/shop/files/showroom.jpg?17612125154873281969);
+    background-size: cover;
+    background-position: center
+}
+
+.wholesale-sec {
+    background: #eee
+}
+
+.wholesale-con {
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 1px 5px 10px #c3c3c3
+}
+
+.landscape-proportion {
+    width: 100%;
+    padding-top: 50%;
+    position: relative
+}
+
+.square-proportion {
+    width: 100%;
+    padding-top: 100%;
+    position: relative
+}
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%
+}
+
+.space {
+    margin: 1% 0;
+    position: relative;
+    display: inline-block
+}
+
+.space .col-md-3 {
+    width: 23%;
+    margin: 1%
+}
+
+.text-white h3,
+.text-white p {
+    color: #fff
+}
+
+.text-black h3,
+.text-black p {
+    color: #000
+}
+
+.on-hover {
+    opacity: 0;
+    transition: 0.5s all;
+    background: rgba(0, 0, 0, .4)
+}
+
+.overlay-text:hover .on-hover {
+    opacity: 1
+}
+
+.on-hover.text p {
+    font-size: 16px;
+    margin: 55px 0
+}
+
+.on-hover.text .w-link {
+    font-size: 17px;
+    padding: 1.5% 6%;
+    border: 1px solid #fff;
+    font-family: Roboto;
+    color: #fff;
+    transition: 0.5s all
+}
+
+a.w-link:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, .84)
+}
+
+.black-sec-0 {
+    background: url(https://purekashmir.com/cdn/shop/files/black_cashmere_scarf_1.jpg?11964619266445608193);
+    background-size: cover;
+    background-position: center
+}
+
+.black-sec-1 {
+    background: url(https://purekashmir.com/cdn/shop/files/black_cashmere_scarf_2.jpg?7356259632856407469);
+    background-size: cover;
+    background-position: center
+}
+
+.black-dash-top {
+    position: relative;
+    top: 100px
+}
+
+.black-dash-top div {
+    width: 40px;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.black-cashmere-bg .b-txt {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase
+}
+
+.black-cashmere-bg .text span {
+    line-height: 0.8em!important
+}
+
+.black-cashmere-bg .middle-txt {
+    font-weight: 900;
+    font-size: 60px!important
+}
+
+.black-cashmere-bg .upper-text {
+    font-weight: 300;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-size: 40px!important
+}
+
+.black-dash-bottom div {
+    width: 40px;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px
+}
+
+.black-intro p {
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 2.5
+}
+
+.black-intro .Explore {
+    letter-spacing: 1px;
+    font-size: 18px
+}
+
+.black-intro {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 68%
+}
+
+.black-cashmere-section .text {
+    padding-right: 10%
+}
+
+.black-sec-1 .text,
+.sec-3 .text {
+    padding-top: 10%;
+    padding-right: 10%;
+    vertical-align: top!important
+}
+
+.black-sec-intro {
+    font-size: 14px;
+    font-family: 'Roboto'
+}
+
+.black-sec-intro p {
+    margin: 0 20px;
+    line-height: 1.5;
+    font-weight: 300
+}
+
+.f-big {
+    font-size: 14px;
+    margin: 1% 0;
+    font-weight: 600!important
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 600!important;
+    font-size: 20px
+}
+
+.black-sec-2 {
+    background: url(https://purekashmir.com/cdn/shop/files/oversized_cashmere_scarf-2.jpg?15600325555726880766);
+    background-size: cover;
+    background-position: center
+}
+
+.black-sec-2 .text {
+    padding-right: 0
+}
+
+.sec-3 .black-sec-intro p {
+    color: #000!important
+}
+
+.black-sec-3 {
+    background: url(https://purekashmir.com/cdn/shop/files/check_516bc3d6-f5f6-4a19-b794-d9e429e45c8d.jpg?3793763702700546446) no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 100%
+}
+
+.black-sec-4 {
+    background: url(https://purekashmir.com/cdn/shop/files/sozni3.jpg?5452896428844735280) no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 100%;
+    transform: scale(.8) rotate(45deg)
+}
+
+.black-sec-5 {
+    background: url(https://purekashmir.com/cdn/shop/files/rev.jpg?13019516478817723424) no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 100%
+}
+
+.black-tilt {
+    position: relative;
+    overflow: hidden
+}
+
+.black-header .label,
+.black-header a {
+    color: #fff
+}
+
+.black-txt-3 {
+    background: #fff
+}
+
+.Explore a {
+    color: #fff
+}
+
+.Explore a:hover {
+    color: #fff
+}
+
+.black a {
+    color: #000
+}
+
+.black a:hover {
+    color: #000
+}
+
+.black::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #000;
+    transition: width .3s;
+    margin-top: 10px
+}
+
+.black-txt-3 .black-sec-intro p,
+.black-txt-3 .upper-text {
+    color: #000!important
+}
+
+.black-txt-3 .b-txt {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase
+}
+
+.b-p-t {
+    padding-top: 100%
+}
+
+.black-txt-3 .text span {
+    line-height: 0.8em!important
+}
+
+.black-txt-3 .middle-txt {
+    font-weight: 900;
+    font-size: 60px!important
+}
+
+.black-txt-3 .upper-text {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 40px!important
+}
+
+.black-header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    display: table
+}
+
+.v-middle {
+    display: inherit;
+    height: 100%
+}
+
+.black-social {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10%
+}
+
+.black-header img {
+    width: 120px;
+    padding: 5%
+}
+
+.black-social p {
+    font-size: 12px;
+    font-family: "roboto";
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 100
+}
+
+.text-right {
+    text-align: right
+}
+
+.black-making {
+    background: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?4921561085649337202) no-repeat center;
+    background-size: cover;
+    padding-top: 50%
+}
+
+.black-about {
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_1451_e69b357a-60b8-4c97-842f-afce60c6c507.JPG?4921561085649337202) no-repeat center;
+    background-size: cover;
+    padding-top: 50%
+}
+
+.black-artisans {
+    background: url(https://purekashmir.com/cdn/shop/files/9.jpg?4921561085649337202) no-repeat center;
+    background-size: cover;
+    padding-top: 50%
+}
+
+.black-footer .upper-text {
+    font-family: 'Roboto';
+    font-size: 25px!important;
+    font-weight: 400
+}
+
+.black-footer .text {
+    background: rgba(0, 0, 0, .24)
+}
+
+.black-footer {
+    display: inline-block;
+    background: none
+}
+
+.black-footer .three-col {
+    padding: 5% 0;
+    background: #eee;
+    width: 31%;
+    margin: 1.1%
+}
+
+.black-footer .three-col img {
+    height: 200px
+}
+
+.black-footer .three-col h3 {
+    padding: 20px 0;
+    font-family: 'roboto';
+    color: #000
+}
+
+.three-col-middle {
+    border-right: .5px solid #b9b9b9;
+    border-left: .5px solid #b9b9b9
+}
+
+.purekashmr_lower {
+    display: inline-block;
+    margin-bottom: 0;
+    background: #eee;
+    padding: 5% 0!important
+}
+
+.purekashmr_lower .three-col {
+    width: 32.33%
+}
+
+.purekashmr_lower .three-col img {
+    height: 70px
+}
+
+.three-col-row.purekashmr_lower h3 {
+    margin: 5% 0;
+    font-weight: 400
+}
+
+.three-col-row.purekashmr_lower h3,
+.three-col-row.purekashmr_lower p {
+    font-family: 'Roboto'
+}
+
+.three-col-row.purekashmr_lower p {
+    line-height: 1.4;
+    font-weight: 300
+}
+
+.footer-row-black {
+    background: #000;
+    border-top: 2px solid #333;
+    display: inline-block;
+    width: 100%;
+    text-align: left
+}
+
+.footer-row-black .three-col {
+    text-align: left
+}
+
+.footer-row-black .three-col li {
+    list-style-type: none;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 100;
+    padding: 1% 2%;
+    border-left: 2px solid;
+    margin-bottom: 1%;
+    transition: ease 0.3s
+}
+
+.footer-row-black .con-col li {
+    border: none
+}
+
+.footer-row-black .three-col li:hover {
+    background: #0a0a0a
+}
+
+.footer-row-black .three-col li a {
+    color: #fff
+}
+
+.footer-row-black h3 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 1% 3%;
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+.left1,
+.right2 {
+    width: 100%;
+    padding-top: 110%;
+    margin: 2% auto;
+    background: #ccc;
+    position: relative;
+    display: inline-block
+}
+
+.pashmina_kani,
+.pashmina_sozni {
+    width: 100%;
+    padding-top: 100%;
+    margin: 2% auto;
+    background: #ccc;
+    position: relative;
+    display: inline-block
+}
+
+.left2,
+.right1 {
+    width: 100%;
+    padding-top: 100%;
+    margin: 2% auto;
+    background: #333;
+    position: relative;
+    display: inline-block
+}
+
+.pashmina-sec-0 {
+    background: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?1984122843782908454);
+    background-size: cover;
+    background-position: bottom
+}
+
+.pashmina-sec-0 .text {
+    background: rgba(0, 0, 0, .32)
+}
+
+.left1 .upper-text,
+.right1 .upper-text,
+.right2 .upper-text {
+    color: #000!important;
+    font-size: 50px!important;
+    text-align: left;
+    font-weight: 300
+}
+
+.pashmina_kani .upper-text,
+.pashmina_sozni .upper-text {
+    color: #000!important;
+    font-size: 50px!important;
+    text-align: left;
+    font-weight: 300
+}
+
+.left1 .text,
+.right1 .text {
+    background: rgba(255, 255, 255, .28)
+}
+
+.left1 {
+    background: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?5044730199290128820);
+    background-size: cover;
+    background-position: center
+}
+
+.right1 {
+    background: url(https://purekashmir.com/cdn/shop/files/loom_772166ed-df43-4ddc-9476-bc8eb8ab2e1e.jpg?1984122843782908454);
+    background-size: cover;
+    background-position: center
+}
+
+.right1 .black-sec-intro p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400
+}
+
+.right1 .black-sec-intro .f-big {
+    font-size: 20px;
+    color: #000
+}
+
+.left2 {
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_0650.JPG?1984122843782908454);
+    background-size: cover;
+    background-position: center
+}
+
+.pashmina_kani {
+    background: url(https://purekashmir.com/cdn/shop/files/sozni_b325dcc4-8ad5-4a49-bcce-ab3e303a2dfa.jpg?7356259632856407469);
+    background-size: cover;
+    background-position: center
+}
+
+.pashmina_sozni {
+    background: url(https://purekashmir.com/cdn/shop/files/kani.jpg?7356259632856407469);
+    background-size: cover;
+    background-position: center
+}
+
+.rever-head {
+    background: rgba(39, 39, 65, .54)
+}
+
+.reversible-bg {
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_0799.jpg?12696236872840071768);
+    background-size: cover;
+    background-position: center
+}
+
+.rev-row .left1 {
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_07919_ed5ede17-f16c-4575-92eb-737b79472205.jpg?6296414115363643088);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s all
+}
+
+.rev-row .left1:hover {
+    background: url(https://purekashmir.com/cdn/shop/files/3_963d45c0-d366-4cff-9004-6ffe731f5f3f.jpg?3097861306535343998);
+    background-size: cover;
+    background-position: center
+}
+
+.rev-row .right1 {
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_0807_9f274888-c18e-43a7-8eeb-823d6ea14ec0.jpg?6296414115363643088);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s all
+}
+
+.rev-row .right1:hover {
+    background: url(https://purekashmir.com/cdn/shop/files/2_939ec79f-af38-47ea-9112-e21485d4fbe6.jpg?3097861306535343998);
+    background-size: cover;
+    background-position: center
+}
+
+.rev-row .left2 {
+    background: url(https://purekashmir.com/cdn/shop/files/DSC_0806_a4fcb3ae-2fe7-4d38-99c8-275c08cefa08.jpg?6296414115363643088);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s all
+}
+
+.rev-row .left2:hover {
+    background: url(https://purekashmir.com/cdn/shop/files/1_f4531cc1-3283-4d14-9e4e-d9c131a38b46.jpg?3097861306535343998);
+    background-size: cover;
+    background-position: center
+}
+
+.b-txt p {
+    line-height: 1.5;
+    font-size: 19px;
+    padding: 2% 11%;
+    color: #333
+}
+
+.rev-link {
+    padding: 2% 8%;
+    line-height: 10;
+    color: #fff;
+    background: #333;
+    font-size: 18px;
+    letter-spacing: 1;
+    transition: 0.5s all
+}
+
+.rev-link:hover {
+    box-shadow: #737373 1px 3px 15px 1px
+}
+
+.hover-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    visibility: hidden
+}
+
+.hover-link div {
+    padding: 2% 4%;
+    background: rgba(0, 0, 0, .46);
+    margin: 0 30%;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: roboto
+}
+
+.rev-row .left1:hover .hover-link {
+    visibility: visible
+}
+
+.rev-row .left2:hover .hover-link {
+    visibility: visible
+}
+
+.rev-row .right1:hover .hover-link {
+    visibility: visible
+}
+
+.carousel-bg {
+    background-color: none;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.quote-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-top: 60px;
+    width: 80px
+}
+
+.upper p {
+	color: #000000;
+}
+
+.testimonial-style .testimonial-caption-style {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    color: #354052;
+    line-height: 30px;
+    bottom: 40%;
+    text-shadow: none;
+    top: 10%
+}
+
+.testimonial-style .testimonial-authors {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    color: #354052;
+    line-height: 30px;
+    margin-top: 40px
+}
+
+.testimonial-style .carousel-inner>.item {
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 380px
+}
+
+.testimonial-style .carousel-control.left {
+    background: none;
+    box-shadow: none;
+    text-shadow: none
+}
+
+.testimonial-style .carousel-control.right {
+    background: none;
+    box-shadow: none;
+    text-shadow: none
+}
+
+.testimonial-style .carousel-control {
+    color: #354052
+}
+
+.testimonial-style .carousel-control:hover {
+    color: #354052;
+    text-decoration: none;
+    transition: background-color 1s ease
+}
+
+.testimonial-style .carousel-indicators .active {
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    transition: background 1s cubic-bezier(.22, .61, .36, 1)
+}
+
+.testimonial-style .carousel-indicators li {
+    border: 2px solid #354052;
+    background-color: #354052
+}
+
+@media (max-width:767px) {
+    .custom-section {
+        margin: 50px 0
+    }
+}
+
+.hero-wrap-img{
+  background: url('https://purekashmir.com/cdn/shop/files/hero_3_kani.jpg?v=1654500178');
+}
+.hero-wrap-img20{
+  	background: url('https://purekashmir.com/cdn/shop/files/hero_11fbf6c1-d5bd-4e5c-a22e-73654a712c78.jpg?v=1597683692');
+}
+
+.jamawar-img{
+  	background: url('https://purekashmir.com/cdn/shop/files/jam.jpg?v=1607533185');
+}
+.border-img.hero-wrap{
+  	background: url('https://purekashmir.com/cdn/shop/files/borders-all.jpg?v=1619596113');
+    background-position: top;
+  	background-size: cover;
+  	height: 140vh;
+  	max-height: 100%;
+}
+.hero-wrap-img.hero-wrap{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.hero-wrap.reversible-img{
+  	background: url('https://purekashmir.com/cdn/shop/files/rev_45fa1232-9445-482e-852d-4e1c7a35337e.jpg?v=1612767394');
+  background-position: bottom;
+      background-size: cover;
+}
+.hero-wrap.checks-stripes-img{
+  	background: url('https://purekashmir.com/cdn/shop/files/check-wholesale.jpg?v=1613512618');
+  background-position: bottom;
+      background-size: cover;
+}
+.hero-wrap-img .hero-text{
+	text-align: left;
+  	justify-content: left;
+} 
+
+.hero-wrap {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.hero-wrap-img20.hero-wrap{
+	background-position: bottom;
+}
+
+
+.hero-text-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  	transition: 0.3s ease-in;
+}
+
+.hero-text {
+  	display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10%;
+  	text-align: center;
+  	justify-content: center;
+    transition: 0.3s ease-in;
+}
+
+.jamawar-img .hero-text{
+	text-align: left;
+}
+.jamawar-img .hero-text-wrapper{
+	background: rgba(0, 0, 0, 0.30);
+}
+.jamawar-img .hero-text{
+	text-align: left;
+  	justify-content: right;
+} 
+
+.jamawar-img .hero-heading h2{
+	margin-bottom: 10px;
+}
+
+.jali-sec div{
+	    padding-left: 10%;
+}
+
+.hero-heading h1,
+.hero-heading a,
+.hero-heading h2,
+.hero-heading h3,
+.loom-bg-color a{
+    color: #fff;
+    margin: 0;
+    font-family: montserrat
+}
+
+
+.hero-heading h3{
+    font-size: clamp(0.8em, 1.3vw, 5em);
+    margin-bottom: clamp(0.5em, 18px, 1em);
+}
+.jamawar-img .hero-heading h3{
+	font-size: clamp(0.8em, 1.1vw, 5em);
+  line-height: 1.6;
+}
+
+.hero-heading h1 span, .hero-heading h2 span {
+  display: block;
+  font-size: clamp(2.3em, 4vw, 7em);
+  font-family: playfair display;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.hero-heading h2 span{
+	font-size: clamp(1.5em, 4vw, 7em);
+}
+.hero-heading h1, .hero-heading h2 {
+    font-size: clamp(1em, 1.6vw, 5em);
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+
+.hero-heading a, .loom-bg-color a {
+    font-size: clamp(0.8em, 1vw, 2em);
+    position: relative;
+    padding: 0.7em 1em;
+    border: 1px solid #fff;
+    z-index: 1;
+}
+
+.hero-heading a:before, .loom-bg-color a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    left: 0;
+    background: #e95144;
+    transition: .3s ease;
+  	z-index: -1;
+}
+.hero-heading a:hover, .loom-bg-color a:hover{
+	color: #fff;
+  	border: 1px solid #e95144;
+}
+
+/* .hero-heading a:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    height: 4px;
+    width: 0;
+    right: 0;
+    background: #a69377;
+    transition: .3s ease
+} */
+
+.kani-home-text{
+	background: #c0c0c0;
+  	padding: 0 10% 40px;
+}
+.kani-home-text img {
+    border-radius: 50%;
+    box-shadow: 0px 7px 17px;
+}
+.kani-home-text .hero-heading{
+	margin-bottom: 40px;
+  	text-align: center;
+}
+.kani-home-thumb .col-half{
+	margin: 0 2%;
+}
+.kani-home-thumb .row-xs-home{
+	width: 80%;
+    margin: 0 auto;
+}
+
+.hero-heading a:hover:before, .loom-bg-color a:hover:before {
+    width: 100%;
+}
+
+.dark-intro .hero-heading h1,.dark-intro .hero-heading a{
+	color: #3e3e3e;
+}
+.dark-intro .hero-heading a{
+  border: 1px solid #3e3e3e;
+}
+.dark-intro .hero-heading a:hover{
+	color: #eee;
+}
+.dark-intro .hero-heading a:before{
+	background: #3e3e3e;
+}
+
+.dark-text.loom-bg-color div h3, .dark-text div h2, .dark-text a{
+	color: #3e3e3e;
+}
+
+.dark-text a{
+	border: 1px solid #3e3e3e;
+}
+
+.dark-text a:hover{
+	color: #eee;
+}
+
+.dark-text a:before{
+	background: #e95144;
+}
+.landing-intro {
+    min-height: 350px;
+    width: 100%;
+    background: #eee;
+    display: table;
+}
+.dark-intro{
+	background: #c0c0c0;
+  	min-height: auto;
+}
+.dark-intro .intro-wrap{
+	display: table-cell;
+    vertical-align: top;
+    padding: 0px 10% 40px;
+    text-align: left;
+}
+.intro-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.intro-wrap h3 {
+    font-size: clamp(1.2em, 1.5vw, 1.5em);
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    line-height: 1.5;
+}
+.dark-intro .hero-heading h1{
+	font-size: 18px;
+  margin-bottom: 0;
+}
+.dark-intro .hero-heading h3{
+	color: #3e3e3e;
+  	margin-bottom: 20px;
+  	font-weight: 500;
+  	text-transform: uppercase;
+  	font-size: 1.2em;
+}
+.kani-t-home{
+  background: #c0c0c0;
+  padding: 0 0 40px;
+}
+.kani-t-home .row-xs-home{
+	width: 50%;
+  	margin: 0 auto;
+}
+.kani-t-home .col-half{
+	margin: 0 3%;
+}
+.kani-t-home img{
+	border-radius: 50%;
+  	border: solid 5px #ababab
+}
+
+.loom-home-bg {
+    position: relative;
+    background: url(https://purekashmir.com/cdn/shop/files/embroidery-sozni.jpg?v=1584956663);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 70vh;
+}
+.kalamkari-home{
+	background: url('https://purekashmir.com/cdn/shop/files/DSC_0252_81783888-a861-46ac-9b6a-2cecdc35acbd.jpg?v=1597740362');
+  	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+.tilla-home{
+	background: url('https://purekashmir.com/cdn/shop/files/tilla-banner.jpg?v=1597918520');
+  	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 110vh;
+}
+.border-home{
+	background: url('https://purekashmir.com/cdn/shop/files/border-em_5933211b-2030-4653-bf17-678aed84def1.jpg?v=1598774780');
+  	position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 110vh;
+}
+.jali-home{
+	background: url('https://purekashmir.com/cdn/shop/files/jali-emb-full.jpg?v=1598768402');
+  	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 110vh;
+}
+.oversized-home{
+	background: url('https://purekashmir.com/cdn/shop/files/DSC_0490.jpg?v=1598420487');
+  	position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+.kalamkari-home .loom-bg-color, .tilla-home .loom-bg-color,.oversized-home .loom-bg-color, .jali-home .loom-bg-color, .border-home .loom-bg-color{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.kalamkari-home .loom-bg-color a, .kalamkari-home .loom-bg-color a:hover{
+	color: #fff;
+  	border: 1px solid #fff;
+}
+
+
+
+#content{
+	padding-bottom: 0;
+}
+
+.loom-bg-color {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .59)
+}
+
+.loom-bg-color div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%
+}
+
+.loom-bg-color div h3 {
+    color: #fff;
+    font-family: montserrat;
+    margin: 0;
+    font-size: clamp(0.6em, 1.5vw, 2em);
+}
+.loom-bg-color h2 {
+    font-size: clamp(1.2em, 3vw, 7em);
+  	color: #fff;
+    font-weight: 700;
+  	font-family: playfair display;
+    margin: 10px 0 25px 0;
+}
+
+.pk-o-a {
+    transition: 0.3s ease;
+    position: relative
+}
+
+.pk-o-a:before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    transition: 0.3s ease
+}
+
+.pk-o-a:hover:before {
+    width: 50%
+}
+
+.pk-o-a:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    width: 0;
+    height: 4px;
+    background: #a69377;
+    transition: 0.3s ease
+}
+
+.pk-o-a:hover:after {
+    width: 50%
+}
+
+.kalamkari-home .loom-bg-color div h3, .kalamkari-home .loom-bg-color div h2{
+	text-shadow: 0 2px #000000;
+}
+
+.row-home {
+    display: flex;
+    align-items: center;
+}
+.row-xs-home {
+    display: flex;
+    align-items: center;
+  	margin-bottom: -6px;
+}
+
+.col-half {
+    flex: 1;
+}
+.col-2{
+	flex: 2;
+}
+
+.ikat-sec>.col-half>div {
+    padding: 0 1% 0 10%;
+}
+
+.ikat-sec p{
+	font-size: 15px;
+    color: #3e3e3e;
+}
+
+.img-90{
+	width: 90%;
+  	margin: 5%;
+}
+
+.row-home h3, .row-xs-home h3 {
+    font-family: montserrat;
+    font-size: 1.5em;
+    font-weight: 500;
+  	margin-bottom: 0.3em;
+}
+
+.row-home h2, .row-xs-home h2 {
+    font-size: 3em;
+    font-family: playfair display;
+    font-weight: 800;
+    margin-bottom: 0.5em
+}
+
+.solid-p {
+    font-size: 1.2em;
+    color: #333;
+    font-family: montserrat;
+    font-weight: 400
+}
+
+.pk-a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.pk-a:before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 0;
+    height: 4px;
+    background: #333;
+    transition: 0.3s ease
+}
+
+.pk-a:hover:before {
+    width: 50%
+}
+
+.pk-a:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    width: 0;
+    height: 4px;
+    background: #a69377;
+    transition: 0.3s ease
+}
+
+.pk-a:hover:after {
+    width: 50%
+}
+
+.pk-a:hover {
+    color: #333;
+}
+.anchor-dark{
+  	color: #222;
+	font-size: clamp(0.8em, 1vw, 2em);
+    position: relative;
+    padding: 0.7em 1em;
+    border: 1px solid #222;
+    z-index: 1;
+}
+.anchor-dark:before{
+	content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    left: 0;
+    background: #e95144;
+    transition: .3s ease;
+    z-index: -1;
+}
+.anchor-dark:hover{
+	color: #fff;
+    border: 1px solid #e95144;
+}
+.anchor-dark:hover:before{
+	width:100%;
+}
+
+/* light */
+.anchor-light{
+  	color: #fff !important;
+	font-size: clamp(0.8em, 1vw, 2em);
+    position: relative;
+    padding: 0.7em 1em;
+    background: #e95144;
+    z-index: 1;
+  	transition: 0.3s ease;
+}
+.anchor-light:hover{
+	color: #fff;
+}
+
+a.anchor-light:after, a.anchor-light:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 40px);
+    height: 100%;
+    background: #cf4539;
+    transition: 0.3s ease;
+    padding: 0 20px;
+    z-index: -1;
+  	transition: 0.3s ease;
+}
+a.anchor-light:before{
+	-webkit-mask-image: url(https://purekashmir.com/cdn/shop/files/right-arrow.svg);
+    -webkit-mask-size: 20px;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+  	background: #fff;
+  	opacity: 0;
+  	z-index: 1;
+}
+
+.anchor-light:hover:after, .anchor-light:hover:before{
+	left: 100%;
+  	opacity: 1;
+}
+
+
+
+.image-collection {
+    margin: 5px;
+    position: relative;
+}
+.image-text-wrap{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(146 121 83 / 59%);
+  	opacity: 0;
+  transition: 0.3s ease;
+}
+.image-collection:hover .image-text-wrap{
+  height: calc(100% - 6px);
+  opacity: 1;
+}
+.image-text-wrap-full {
+    position: relative;
+    bottom: 6px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #eee;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.image-text-wrap-full .image-text h4{
+  color: #222222;
+  font-family: "Playfair Display";
+  font-size: clamp(1em, 3vw, 2em);
+}
+
+.img-con{
+	background: #eee;
+}
+
+.img-con img{
+	width: 98%;
+   	margin: 1%;
+}
+
+.image-text h4{
+  color: #ffffff;
+  font-family: "Playfair Display";
+}
+.image-text a, .image-text a:hover{
+  color: #ffffff;
+}
+.image-text .anchor-dark{
+	color: #222222;
+}
+.collection-section h2, .making-sec h3, .making-sec h4{
+    margin: 1em 0;
+    font-size: 30px;
+    font-family: playfair display;
+    position: relative;
+  	font-weight: 700;
+  	
+}
+.making-sec h3, .making-sec h4{
+	text-align: center;
+}
+.making-sec h3{
+	font-size: clamp(0.8em, 1.2vw, 1.2em);
+  	font-weight: normal;
+  	letter-spacing: 1px;
+}
+.making-sec .image-text-wrap{
+	background: rgba(0,0,0,0.5);
+  	opacity: 1; 
+  	height: calc(100% - 6px);
+  	border-radius: 50%;
+}
+.making-sec .image-text h3{
+	color: #ffffff;
+}
+
+.making-sec h4:before{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 45%;
+  width: 10%;
+  height: 3px;
+  background: #a69377;
+  transition: 0.3s ease;
+}
+.making-sec img{
+	border-radius: 50%;
+}
+
+.collection-section h2:before{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 10%;
+  height: 3px;
+  background: #a69377;
+  transition: 0.3s ease;
+}
+.collection-section h2:hover:before{
+  width: 15%;
+}
+
+.plain-check{
+	margin: 0;
+  	position: relative;
+}
+
+.row-reversible .plain-check{
+	margin: 0;
+}
+.row-reversible .plain-check div, .check-sec .plain-check div{
+	text-align: center;
+}
+
+.plain-check div {
+	position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+.plain-check h3 {
+    color: #fff;
+    font-size: clamp(1.2em, 1.8vw, 1.2em);
+    margin-bottom: 0.5em;
+}
+.plain-check h2 {
+    color: #fff;
+    font-size: clamp(1.5em, 2.6vw, 2.2em);
+    margin-bottom: 4%;
+}
+
+@media(max-width:965px){
+  .row-home h2, .row-xs-home h2{
+  	font-size: 2.2em;
+  }
+}
+
+
+@media(max-width:767px) {
+    .row-home {
+        position: relative;
+      	flex-direction: column;
+    }
+  .col-half{
+  	width: 100%;
+  }
+  .new-footer{
+	align-items: normal !important; 
+}
+  .new-footer .nav-row a{
+  	padding: 5px 0 !important;
+  }
+  .col-mob-reverse{
+  		flex-direction: column-reverse;
+  }
+  .m-box .col-half>div{
+  	padding: 0;
+    margin: 5%;
+  }
+  .m-box .img-90{
+  	margin: 5% 5% 0 5%;
+  }
+  .m-box h3, .m-box p{
+  	margin-bottom: 5px;
+  }
+  .col-xs-1{
+  		flex: 1;
+  }
+  .pk-a{
+  	 font-size: 14px;
+  }
+  .jali-sec.mobile-overlay>div, .ikat-sec>.mobile-overlay>div{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 20px;
+        left: 20px;
+}
+    .mobile-overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, .6)
+    }
+    .mobile-overlay>div {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 20px;
+        right: 20px;
+    }
+}
+
+
+/* Small Tablet */
+
+@media (max-width:630px) {
+    .row-3box h2 {
+        font-weight: 700;
+        font-size: calc(1.5vw + 1.5vh + .5vmin);
+        color: #000
+    }
+    .row-3box h3 {
+        font-weight: 500;
+        font-size: calc(1vw + 1vh + .5vmin);
+        color: #000
+    }
+  .row-3box{
+  		flex-direction: column;
+  }
+    .t-txt .upper-text,
+    .t-txt .lower-text {
+        font-size: 12px!important
+    }
+    .t-txt .t-s-link {
+        font-size: 9px!important;
+        margin: 2% 5%!important
+    }
+    .t-txt .middle-txt {
+        font-size: 18px!important;
+        letter-spacing: 0
+    }
+    .t-txt {
+        padding: 0;
+        width: 80%
+    }
+}
+
+
+}
+.blog-row {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background: #f3f3f3
+}
+.blog-box {
+    background: #fff;
+    position: relative
+}
+.blog-box-half {
+    width: 48%;
+    margin: 1%;
+    background: #fff;
+    position: relative;
+    float: left
+}
+.blog-box h1 {
+    text-align: center;
+    padding: 2.5% 0;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 9px;
+    font-size: 52px;
+    color: #fff
+}
+.blog-box p {
+    line-height: 2
+}
+.blog-box .blog-txt {
+    padding: 2.5%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center
+}
+.blog-bg {
+    width: 100%;
+    padding-top: 40%;
+    background: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?3619584588930241880);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
+}
+.blog-bg1 {
+    width: 100%;
+    padding-top: 40%;
+    background: url(https://purekashmir.com/cdn/shop/files/phamb.jpg?3619584588930241880);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
+}
+.blog-bg0 {
+    width: 100%;
+    padding-top: 40%;
+    background: url(https://purekashmir.com/cdn/shop/files/kath.jpg?3619584588930241880);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+.blog-bg01 {
+    width: 100%;
+    padding-top: 40%;
+    background: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?3619584588930241880);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+.blog-bg2 {
+    width: 100%;
+    padding-top: 40%;
+    background: url(https://purekashmir.com/cdn/shop/files/sozni_b325dcc4-8ad5-4a49-bcce-ab3e303a2dfa.jpg?3619584588930241880);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+.blog-bg3 {
+    width: 100%;
+    padding-top: 40%;
+    background: url(https://purekashmir.com/cdn/shop/files/kani.jpg?3619584588930241880);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+.blog-point {
+    color: #333;
+    font-weight: 600
+}
+.inblog-txt {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3);
+    color: #fff
+}
+.inblog-txt h1 {
+    top: 50%;
+    transform: translateY(-50%)
+}
+.blog-half {
+    width: 50%;
+    float: left
+}
+.blog-txt h3 {
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase
+}
+.blog-txt p {
+    color: #666;
+    font-size: 16px;
+    word-spacing: 1
+}
+@media (max-width:640px) {
+    .bg-b {
+        padding: 5% 0
+    }
+    
+    .blog-para {
+        font-size: 12px
+    }
+    
+    .blog-inner p {
+        font-size: 12px
+    }
+    
+    .blog-inner span {
+        font-size: 16px
+    }
+    
+    .blog-para h1 {
+        font-size: 18px
+    }
+    
+    .th-col-blog span {
+        font-size: 35px
+    }
+}
+.banner-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height:670px;
+    min-height: 500px;
+    height: 100%
+}
+.banner-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .36);
+    display: table
+}
+.banner-text-container {
+    display: table-cell;
+    vertical-align: middle
+}
+.banner-text {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.5
+}
+.custom-nav {
+    position: absolute;
+    padding: 20px 0;
+    width: 100%
+}
+.custom-nav:after {
+    content: "";
+    width: 90%;
+    height: 1px;
+    background: rgba(255, 255, 255, .18);
+    position: absolute;
+    margin: 0 5%;
+    bottom: 5%
+}
+.custom-social {
+    margin-top: 10px
+}
+.custom-social i {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 15
+}
+.custom-social li {
+    list-style-type: none;
+    display: inline-block
+}
+.img-wrap {
+    width: 100%
+}
+.custom-section {
+    margin: 100px 0
+}
+.no-padding {
+    padding: 0!important
+}
+.custom-link {
+    padding: 3% 5%;
+    color: #000!important;
+    line-height: 5;
+    background: #ddd;
+    transition: 0.3s all!important;
+    font-family: roboto;
+    text-transform: uppercase;
+    position: relative
+}
+.custom-link:after {
+    content: "";
+    position: absolute;
+    width: 4%;
+    height: 100%;
+    background: rgba(0, 0, 0, .33);
+    top: 0;
+    left: 0;
+    transition: 0.3s all
+}
+.custom-link:hover:after {
+    width: 100%
+}
+.custom-link:hover {
+    text-decoration: none
+}
+.form-group {
+    position: relative
+}
+.form-bg:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background: #eee;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s all
+}
+.custom-form-inputs:focus + .form-bg:after {
+    height: 100%
+}
+.custom-form-inputs {
+    border: 0;
+    border-bottom: 2px solid #333;
+    width: 100%;
+    padding: 2%;
+    font-size: 16px;
+    letter-spacing: 1;
+    color: #333;
+    background: transparent
+}
+.custom-form-inputs::-webkit-input-placeholder {
+    color: #666;
+    font-size: 16px;
+    letter-spacing: 1;
+    padding: 5px 0
+}
+.custom-text-area {
+    height: 106px!important;
+    resize: none
+}
+.custom-submit {
+    float: right
+}
+.custom-submit input[type="submit"] {
+    background: transparent;
+    border: 2px solid #333;
+    color: #333;
+    font-size: 16px;
+    letter-spacing: 1;
+    font-family: roboto;
+    padding: 5% 0
+}
+.wholesale-h1 {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Crimson Text', serif;
+    text-align: left
+}
+.wholesale-intro {
+    display: inline-block
+}
+.wholesale-intro p {
+    font-size: 17px;
+    letter-spacing: .5;
+    line-height: 1.7;
+    color: #666
+}
+.wholesale-home-banner {
+    background-image: url(https://purekashmir.com/cdn/shop/files/banner-wholesale-home.jpg?8820790399781522926)
+}
+.collection-container {
+    width: 100%;
+    min-height: 350px;
+    background: url(https://purekashmir.com/cdn/shop/files/check_947f3c46-749d-4cd2-ba56-333310274b2b.jpg?10443082606448641641) fixed no-repeat center center;
+    background-size: cover;
+    position: relative
+}
+.col-con-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, .5);
+    text-align: center
+}
+.col-con-align {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%
+}
+.collection-txt-chk,
+.collection-img {
+    text-align: center
+}
+.collection-txt-chk h1 {
+    font-size: 22px;
+    line-height: 1.5
+}
+.collection-txt-chk h4 {
+    font-size: 16px
+}
+.collection-img img {
+    width: 20%
+}
+
+/* Footer */
+.new-footer{
+	overflow: hidden;
+}
+.new-footer .nav-row{
+	background: transparent !important;
+  	border-top: none !important;
+  	border-bottom: none !important;
+}
+.new-footer .nav-row .multi-level-nav>div{
+	padding: 0;
+}
+.new-footer .nav-row ul{
+	display: block;
+}
+.new-footer .nav-row ul li{
+	display: block;
+  	text-align: left;
+}
+.new-footer .nav-row a{
+	padding: 0;
+ 	font-family: montserrat;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.new-footer .signup-form input[type="email"]{
+	text-align: left;
+  	width: auto;
+}
+.new-footer .signup-form-cont{
+	text-align: left;
+}
+.new-footer .social-links ul li{
+	margin: 0 !important;
+  	padding: 0 !important;
+}
+.new-footer .social-links{
+	text-align: left;
+}
+.new-footer [class^="icon-"], [class*=" icon-"]{
+	width: 1.5em;
+  	line-height: 1.5em;
+  	font-size: 1.5em;
+}
+.new-footer .signup-form label{
+	font-size: 1.3em;
+  	font-family: montserrat;
+  	color: #3e3e3e;
+}
+.new-footer .col-half{
+	padding: 20px;
+}
+.footer-contact h3{
+	font-weight: 600;
+  	margin-bottom: 1em;
+}
+.footer-contact ul{
+	margin: 0;
+}
+.footer-contact li{
+	list-style: none;
+  	line-height: 2em;
+    font-size: 1.3em;
+    font-family: montserrat;
+    color: #3e3e3e;
+}
+.footer-contact i{
+	padding-right: 7px;
+  	font-size: 1.3em;
+}
+@media(max-width:640px) {
+    .row-xs-home h2{
+  	font-size: 2em;
+  }
+    .hero-wrap {
+        height: 60vh;
+    }
+  .hero-wrap-img.hero-wrap{
+  		height: 50vh;
+  }
+    
+    
+  	.collection-section h2{
+      font-size: 7.5vw;
+    }    
+    
+    .loom-home-bg {
+        min-height: 50vh
+    }
+}
+
+/* Mobile Phone */
+@media(max-width:469px) {
+  .pk-a{
+  	font-size: 10px;
+  }
+  .solid-p{
+  	font-size: 0.8em;
+    line-height: 1;
+  }
+    .row-home h2 {
+        font-size: 1.9em;
+    }
+  .row-xs-home h2{
+  	font-size: 1.2em;
+    margin-bottom:0;
+  }
+    
+    .row-home h3 {
+        font-size: 1.2em
+    }
+  .row-xs-home h3{
+  	font-size: 0.8em;
+    margin-bottom: 0;
+  }
+    
+}
+@media (max-width:450px) {
+    .blog-box h1 {
+        text-align: center;
+        padding: 2.5% 0;
+        text-transform: uppercase;
+        position: relative;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 30px
+    }
+    
+    .blog-txt p {
+        font-size: 10px
+    }
+    
+    .blog-bg,
+    .blog-bg0,
+    .blog-bg01,
+    .blog-bg1,
+    .blog-bg2,
+    .blog-bg3 {
+        padding-top: 100%;
+        background-attachment: fixed
+    }
+}
+.mens-box {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    background: #eee!important;
+    display: grid
+}
+.mens-box h2,
+.mens-box h3 {
+    font-family: "Montserrat"!important
+}
+.big-picture {
+    position: relative;
+    height: 600px;
+    background-position: center;
+    background-size: cover
+}
+.mens-b-1 {
+    background-image: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?11156056784768923654)
+}
+.mens-b-2 {
+    background-image: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?11156056784768923654);
+    margin: 30px 0
+}
+.hero-inner {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+.hero-inner h2,
+.hero-inner h3 {
+    color: #fff;
+    margin: 0
+}
+.hero-inner h2 {
+    font-size: 40px
+}
+.hero-inner h3 {
+    font-size: 28px
+}
+.mens-txt-area {
+    margin: 50px 0;
+    text-align: center
+}
+.mens-intro {
+    padding: 80px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd
+}
+.mens-intro h2 {
+    font-weight: 600;
+    line-height: 1.4
+}
+.mens-intro p {
+    font-size: 18px;
+    font-family: serif;
+    color: #555
+}
+.half-width {
+    width: 40%
+}
+.offset-half {
+    margin-left: 30%
+}
+.mens-container {
+    text-align: center;
+    position: relative;
+    display: inline-block
+}
+.mens-container img {
+    width: 90%
+}
+.mens-img-txt {
+    position: relative
+}
+.mens-img-txt img {
+    display: inline-block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd
+}
+.mens-img-txt-con {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%
+}
+.mens-product-txt {
+    display: table;
+    width: 85%;
+    margin: 0 auto;
+    height: 100%
+}
+.mens-product-heading {
+    display: table-cell;
+    vertical-align: middle
+}
+.price-range {
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+    color: #333;
+    letter-spacing: 1px
+}
+.mens-product-des {
+    font-style: italic;
+    color: #888;
+    font-size: 14px;
+    font-family: "serif";
+    margin: 1% 0
+}
+.reversible-collection{
+  position: relative;
+  width: 100%;
+}
+.reversible-image{
+	background-image: url('https://purekashmir.com/cdn/shop/files/DSC_0419.jpg?v=1595310021');
+  	background-position: center;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	height: 300px;
+}
+.kani-image{
+	background-image: url('https://purekashmir.com/cdn/shop/files/kani-making.jpg?v=1523782365');
+  	background-position: center;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	height: 300px;
+}
+.kani-image h3{
+	line-height: 1.5;
+}
+.dark-layer{
+	background: rgba(0, 0, 0, 0.5);
+}
+@media (max-width:450px) {
+    .b-txt p {
+        line-height: 1.5;
+        font-size: 17px;
+        padding: 4% 11%;
+        color: #333
+    }
+    
+    .rev-link {
+        padding: 2% 8%;
+        line-height: 2;
+        color: #fff;
+        background: #333;
+        font-size: 18px;
+        letter-spacing: 1;
+        transition: 0.5s all
+    }
+}
+.more-details {
+    padding: 100px 10%;
+    text-align: center;
+    background: #eee;
+}
+.more-details h4 {
+    font-family: lato;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #888;
+}
+.more-details h2 {
+    color: #000;
+    font-family: lato;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.more-details p {
+    font-size: 1.8rem;
+    color: #888;
+    line-height: 1.8;
+    padding: 0 5%;
+}
+.flex-row {
+    display: flex;
+}
+.attribute {
+    width: 25%;
+}
+.attribute img {
+    padding: 10px;
+}
+.attribute h3 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: lato;
+    margin: 0;
+}
+.attribute h4 {
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 5px;
+}
+.product-origin {
+    min-height: 450px;
+    width: 100%;
+    background: url("https://purekashmir.com/cdn/shop/files/goat.jpg?575");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+}
+.origin-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.origin-text h3,
+.origin-text h4,
+.origin-text a {
+    font-family: lato;
+    color: #fff;
+}
+.origin-text h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.origin-text h3 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+.origin-text a {
+    font-size: 18px;
+}
+.flex-50 {
+    width: 50%;
+    flex: 1;
+}
+.v-center {
+    align-items: center;
+}
+.sozni-detail {
+    padding: 3%;
+}
+.sozni-detail p {
+    font-size: 16px;
+    color: #222;
+}
+@media(max-width:768px) {
+  .col-2{
+	flex: 1;
+	}
+    .flex-row {
+        flex-direction: column;
+    }
+    
+    .flex-50 {
+        width: 90%;
+        margin: 0 5%;
+    }
+    
+    .sozni-detail {
+        padding: 3% 0;
+    }
+    
+    .flex-reverse {
+        flex-direction: column-reverse;
+    }
+    
+    .attribute {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    
+    .mobile-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/* Carpet Making Page */
+.flex-rows{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.content-center{
+	align-items: center;
+  justify-content: center;
+}
+.column-half{
+	flex: 1;
+}
+
+.carpet-main-image{
+	width: 100%;
+  	height: 100vh;
+  background: url('https://purekashmir.com/cdn/shop/files/carpet-main.jpeg?v=1589191701');
+  background-size: cover;
+}
+.carpet-heading{
+	margin: 0 10%;
+}
+.carpet-heading h1{
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 700;
+  background: transparent;
+  color: #2a5f9d;  
+  z-index: 3;
+  position: relative;
+}
+/* .carpet-heading h1:before{
+	content: "Carpet";
+    position: absolute;
+    z-index: -1;
+    font-size: 150px;
+    color: #e5e2dd;
+    background: transparent;
+    top: -35%;
+    left: 0%;
+} */
+.carpet-intro-bg{
+	width: 100%;
+  	height: 90vh;
+  	background: url('https://purekashmir.com/cdn/shop/files/carpet-making_21.jpg?v=1589186940');
+  	background-size: cover;
+  	background-attachment: fixed;
+}
+.carpet-intro{
+	padding: 100px 0;
+  	width: 95%;
+  	margin: 0 auto;
+}
+.carpet-intro h5{
+	font-family: montserrat;
+  	font-size: 18px;
+  	padding: 0 5%;
+}
+.carpet-making{
+    margin: 50px 0;
+    width: 95%;
+    padding: 5% 2.5%;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #eee;
+}
+.carpet-making .column-half{
+	width: 50%;
+}
+.carpet-text-right{
+	margin-right: 5%;
+}
+.carpet-text-left{
+	margin-left: 5%;
+}
+.carpet-text h3{
+	font-family: playfair display;
+  	color: #2a5f9d;
+  	font-weight: 700;
+  	font-size: 30px;
+}
+.carpet-text p{
+	font-family: montserrat;
+  	color: #222222;
+}
+.image-scale{
+	position: relative;
+  	overflow: hidden;
+}
+.image-scale img{
+	transition: 0.3s ease;
+}
+
+.image-scale img:hover{
+	transform: scale(1.2) rotate(7deg);
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+.carpet-slideshow div{
+	cursor: pointer;
+  	margin: 0 5px;
+}
+
+@media(max-width: 768px){
+	.flex-rows{
+  		display: flex;
+  		flex-wrap: wrap;
+  		flex-direction: column;
+	}
+  .carpet-making .column-half{
+	width: 100%;
+	}
+  .column-reverse{
+  	flex-direction: column-reverse;
+  }
+  .carpet-main{
+		display: contents;
+	}
+  .carpet-heading{
+  		padding: 10% 0;
+  }
+  .carpet-heading h1{
+  	font-size: 30px;
+  }
+  .carpet-text-right, .carpet-text-left{
+  		margin: 0;
+  }
+  .carpet-intro h5{
+  		padding: 0;
+  }
+  
+}
+
+/* Reveal alternate image */
+.reveal .hidden { display: block !important; visibility: visible !important;}
+.product:hover .reveal img { opacity: 1; }
+.reveal { position: relative; display: flex;   align-items: center;
+  justify-content: center; }
+.reveal .hidden { 
+  position: absolute; 
+  z-index: -1;
+  top: 0; 
+  width: 100%; 
+  height: 100%;  
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;  
+  object-fit: cover;
+
+}
+.reveal:hover .hidden { 
+  z-index: 100000;
+  opacity: 1;    
+  height: 100%;
+}
+
+
+/* New collection and homepage design */
+
+.new-collection-title{
+	font-family: montserrat;
+  	text-align: left;
+}
+
+.kani-collection-text{
+	font-size: 15px;
+  	width: 62%;
+  	line-height: 1.5;
+}
+.kani-collection-list .product-block{
+	width: 24%;
+  	padding: 0 2px;
+}
+
+.kani-collection-list .product-block .image-cont .image-link{
+  height: auto;
+	
+}
+.product-block .block-inner{
+	margin: 0 0 7px;
+}
+
+
+.slide-left-bg.dark{
+	background: #c0c0c0;
+}
+
+
+
+.product-block .hover-info .price{
+	font-family: montserrat;
+  	font-weight: 600;
+  	margin: 0;
+}
+.product-list .title{
+	font-family: montserrat;
+}
+@media(max-width: 768px){
+	.kani-collection-text{
+	font-size: 15px;
+  	width: 100%;
+}	
+  .kani-collection-list .product-block{
+	width: 43%;
+}
+}
+
+.text-left{
+	text-align: left;
+}
+
+.collection-bottom-text{
+	font-family: montserrat;
+  	padding-bottom: 20px;
+}
+.collection-bottom-text h3{
+	font-family: montserrat;
+}
+
+.collection-bottom-text p{
+	line-height: 1.5;
+}
+.blockquote{
+	
+    font-weight: bold;
+    border-left: 3px solid;
+    padding: 10px;
+    font-style: italic;
+
+}
+
+.home-sec-heading h3{
+	position: relative;
+    display: inline-block;
+    font-size: clamp(1.5em, 3vw, 2.5em);
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    margin-bottom: 1em;
+    z-index: 2;
+}
+
+
+.home-sec-heading>h3:after{
+	position: absolute;
+    content: "PASHMINA";
+    bottom: 14%;
+    left: 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: rgba(0,0,0,0.1);
+    z-index: -1;
+    font-size: 1.6em;
+    width: 100%;
+    letter-spacing: 5px;
+}
+
+.home-sec-heading > h3 > .elipses{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.home-sec-heading > h3 > .elipses:before{
+	content: "";
+    position: absolute;
+    background: url(https://purekashmir.com/cdn/shop/files/Ellipse4.svg?v=1617031705);
+    width: 8%;
+    height: 80%;
+    top: 5%;
+    left: -3%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.home-sec-heading > h3 > .elipses:after{
+	content: "";
+    position: absolute;
+    background: url(https://purekashmir.com/cdn/shop/files/Ellipse4.svg?v=1617031705);
+    width: 8%;
+    height: 80%;
+    top: 50%;
+    right: -3%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.home-text-block{
+	padding: 10% 10%;
+}
+.home-text-block > p{
+	font-family: 'Montserrat';
+    color: #333;
+    font-size: clamp(0.8em, 1.5vw, 1.2em);
+    line-height: 1.5;
+  	margin-bottom: 1.5em;
+}
+
+.img-w-90 {
+	width: 90%;
+  	margin: 2% 5%;
+}
