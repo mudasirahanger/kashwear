@@ -118,3 +118,97 @@ function get_pages_data() {
         echo "<div>{$page_content}</div>";
     }
 }
+
+function display_menu_items() {
+    // Replace 'primary-menu' with the desired menu location
+    $menu_items = wp_get_menu_array('main-menu');
+
+    if ($menu_items) {
+        echo '<ul data-menu-handle="main-menu">'; // Start the top-level menu list
+
+        foreach ($menu_items as $menu_item) {
+            $menu_title = $menu_item['title'];
+            $menu_url = $menu_item['url'];
+            $menu_children = $menu_item['children'];
+
+            if (!empty($menu_children)) {
+                echo '<li>'; // Start a menu item
+                echo '<a href="' . esc_url($menu_url) . '" class="has-children">' . esc_html($menu_title) . '<span class="exp">+</span></a>';
+                echo '<ul data-menu-handle="' . esc_html($menu_title) . '">'; // Start the sub-menu list
+                foreach ($menu_children as $child_item) {
+                    $child_title = $child_item['title'];
+                    $child_url = $child_item['url'];
+                    echo '<li>'; // Start a sub-menu item
+                    echo '<a href="' . esc_url($child_url) . '">' . esc_html($child_title) . '</a>';
+                    echo '</li>'; // End a sub-menu item
+                }
+                echo '</ul>'; // End the sub-menu list
+            }
+            echo '<li>'; // Start a menu item
+            echo '<a href="' . esc_url($menu_url) . '" >' . esc_html($menu_title) . '</a>';
+            echo '</li>'; // End a menu item
+        }
+        echo '</ul>'; // End the top-level menu list
+    }
+}
+
+function wp_get_menu_array($current_menu) {
+
+	$array_menu = wp_get_nav_menu_items($current_menu);
+
+	$menu = array();
+
+	foreach ($array_menu as $m) {
+		if (empty($m->menu_item_parent)) {
+			$menu[$m->ID] = array();
+			$menu[$m->ID]['ID']      =   $m->ID;
+			$menu[$m->ID]['title']       =   $m->title;
+			$menu[$m->ID]['url']         =   $m->url;
+			$menu[$m->ID]['children']    =   array();
+		}
+	}
+
+	$submenu = array();
+
+	foreach ($array_menu as $m) {
+		if ($m->menu_item_parent) {
+			$submenu[$m->ID] = array();
+			$submenu[$m->ID]['ID']       =   $m->ID;
+			$submenu[$m->ID]['title']    =   $m->title;
+			$submenu[$m->ID]['url']  =   $m->url;
+			$menu[$m->menu_item_parent]['children'][$m->ID] = $submenu[$m->ID];
+		}
+	}
+
+	return $menu;
+
+}
+
+
+function custom_login_logo() {
+    echo '<style type="text/css">';
+    echo 'body.login div#login h1 a {';
+    echo 'background-image: url(' . get_template_directory_uri() . '/assets/logo.png) !important;';
+    echo 'width: 100% !important;';
+    echo 'height: 100px !important;';
+    echo 'background-size: contain !important;';
+    echo '}';
+    echo '</style>';
+}
+add_action('login_head', 'custom_login_logo');
+
+
+function remove_about_wordpress() {
+    remove_meta_box('dashboard_primary', 'dashboard', 'side');
+}
+add_action('wp_dashboard_setup', 'remove_about_wordpress');
+
+
+function remove_wordpress_dropdown_menu() {
+    global $wp_admin_bar;
+    // Remove the 'wp-logo' group that contains the WordPress dropdown menu
+    $wp_admin_bar->remove_menu('wp-logo');
+}
+add_action('wp_before_admin_bar_render', 'remove_wordpress_dropdown_menu');
+
+
