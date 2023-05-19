@@ -169,7 +169,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/fleecing.jpg?4727071025354355399) fixed center;
+    background: url(assets/fleecing.jpg?4727071025354355399) fixed center;
     background-size: cover;
     display: table
 }
@@ -189,7 +189,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/4_0ee99112-39de-47be-9bff-eef1d59db687.jpg?11471925189401980845) fixed center;
+    background: url(assets/4_0ee99112-39de-47be-9bff-eef1d59db687.jpg?11471925189401980845) fixed center;
     background-size: cover;
     display: table
 }
@@ -198,7 +198,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/3_2e1c3ea8-a0c7-4e81-9242-e81ff8e72f77.jpg?1115482791540947298) fixed center;
+    background: url(assets/3_2e1c3ea8-a0c7-4e81-9242-e81ff8e72f77.jpg?1115482791540947298) fixed center;
     background-size: cover;
     display: table
 }
@@ -214,7 +214,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/5_ef2c1360-3eb0-4c1e-a2a4-156db55fcd95.jpg?845341114610298439) fixed center;
+    background: url(assets/5_ef2c1360-3eb0-4c1e-a2a4-156db55fcd95.jpg?845341114610298439) fixed center;
     background-size: cover
 }
 
@@ -222,7 +222,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/DSCN0165.JPG?1115482791540947298) fixed center;
+    background: url(assets/DSCN0165.JPG?1115482791540947298) fixed center;
     background-size: cover
 }
 
@@ -230,7 +230,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?1115482791540947298) fixed center;
+    background: url(assets/safeed.jpg?1115482791540947298) fixed center;
     background-size: cover
 }
 
@@ -238,7 +238,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/warp.jpg?3345164745314127270) fixed center;
+    background: url(assets/warp.jpg?3345164745314127270) fixed center;
     background-size: cover
 }
 
@@ -246,7 +246,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_0650.JPG?682549694411203356) fixed center;
+    background: url(assets/DSC_0650.JPG?682549694411203356) fixed center;
     background-size: cover
 }
 
@@ -254,7 +254,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/9.jpg?682549694411203356) fixed center;
+    background: url(assets/9.jpg?682549694411203356) fixed center;
     background-size: cover;
     display: table
 }
@@ -263,7 +263,7 @@
     position: absolute;
     width: 100%;
     height: 80%;
-    background: url(https://purekashmir.com/cdn/shop/files/Stamp_Carving_5c6b15db-7bc5-41c6-a4d8-7178f811f31d.jpg?18265694308549185059) fixed center;
+    background: url(assets/Stamp_Carving_5c6b15db-7bc5-41c6-a4d8-7178f811f31d.jpg?18265694308549185059) fixed center;
     background-size: cover;
     display: table
 }
@@ -360,13 +360,13 @@
 }
 
 .col3-img1 {
-    background: url(https://purekashmir.com/cdn/shop/files/loom_772166ed-df43-4ddc-9476-bc8eb8ab2e1e.jpg?13158430172882544201);
+    background: url(assets/loom_772166ed-df43-4ddc-9476-bc8eb8ab2e1e.jpg?13158430172882544201);
     background-size: cover;
     background-position: center
 }
 
 .col3-img3 {
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_1451_e69b357a-60b8-4c97-842f-afce60c6c507.JPG?13158430172882544201);
+    background: url(assets/DSC_1451_e69b357a-60b8-4c97-842f-afce60c6c507.JPG?13158430172882544201);
     background-size: cover
 }
 
@@ -661,7 +661,7 @@ body {
 }
 
 .wholesale-des {
-    background: url(https://purekashmir.com/cdn/shop/files/check_947f3c46-749d-4cd2-ba56-333310274b2b.jpg?1353283…);
+    background: url(assets/check_947f3c46-749d-4cd2-ba56-333310274b2b.jpg?1353283…);
     background-size: cover;
     background-position: center
 }
@@ -796,13 +796,13 @@ body {
 }
 
 .wholesale-sec-0 {
-    background: url(https://purekashmir.com/cdn/shop/files/banner_09e9b839-350e-4144-85dd-b56ad540aa63.jpg?7614675089574388890);
+    background: url(assets/banner_09e9b839-350e-4144-85dd-b56ad540aa63.jpg?7614675089574388890);
     background-size: cover;
     background-position: center
 }
 
 .wholesale-sec-cashmere {
-    background: url(https://purekashmir.com/cdn/shop/files/showroom.jpg?17612125154873281969);
+    background: url(assets/showroom.jpg?17612125154873281969);
     background-size: cover;
     background-position: center
 }
@@ -891,13 +891,13 @@ a.w-link:hover {
 }
 
 .black-sec-0 {
-    background: url(https://purekashmir.com/cdn/shop/files/black_cashmere_scarf_1.jpg?11964619266445608193);
+    background: url(assets/black_cashmere_scarf_1.jpg?11964619266445608193);
     background-size: cover;
     background-position: center
 }
 
 .black-sec-1 {
-    background: url(https://purekashmir.com/cdn/shop/files/black_cashmere_scarf_2.jpg?7356259632856407469);
+    background: url(assets/black_cashmere_scarf_2.jpg?7356259632856407469);
     background-size: cover;
     background-position: center
 }
@@ -999,7 +999,7 @@ a.w-link:hover {
 }
 
 .black-sec-2 {
-    background: url(https://purekashmir.com/cdn/shop/files/oversized_cashmere_scarf-2.jpg?15600325555726880766);
+    background: url(assets/oversized_cashmere_scarf-2.jpg?15600325555726880766);
     background-size: cover;
     background-position: center
 }
@@ -1013,14 +1013,14 @@ a.w-link:hover {
 }
 
 .black-sec-3 {
-    background: url(https://purekashmir.com/cdn/shop/files/check_516bc3d6-f5f6-4a19-b794-d9e429e45c8d.jpg?3793763702700546446) no-repeat;
+    background: url(assets/check_516bc3d6-f5f6-4a19-b794-d9e429e45c8d.jpg?3793763702700546446) no-repeat;
     background-position: center;
     background-size: contain;
     padding-top: 100%
 }
 
 .black-sec-4 {
-    background: url(https://purekashmir.com/cdn/shop/files/sozni3.jpg?5452896428844735280) no-repeat;
+    background: url(assets/sozni3.jpg?5452896428844735280) no-repeat;
     background-position: center;
     background-size: contain;
     padding-top: 100%;
@@ -1028,7 +1028,7 @@ a.w-link:hover {
 }
 
 .black-sec-5 {
-    background: url(https://purekashmir.com/cdn/shop/files/rev.jpg?13019516478817723424) no-repeat;
+    background: url(assets/rev.jpg?13019516478817723424) no-repeat;
     background-position: center;
     background-size: contain;
     padding-top: 100%
@@ -1140,19 +1140,19 @@ a.w-link:hover {
 }
 
 .black-making {
-    background: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?4921561085649337202) no-repeat center;
+    background: url(assets/kaarkhan.jpg?4921561085649337202) no-repeat center;
     background-size: cover;
     padding-top: 50%
 }
 
 .black-about {
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_1451_e69b357a-60b8-4c97-842f-afce60c6c507.JPG?4921561085649337202) no-repeat center;
+    background: url(assets/DSC_1451_e69b357a-60b8-4c97-842f-afce60c6c507.JPG?4921561085649337202) no-repeat center;
     background-size: cover;
     padding-top: 50%
 }
 
 .black-artisans {
-    background: url(https://purekashmir.com/cdn/shop/files/9.jpg?4921561085649337202) no-repeat center;
+    background: url(assets/9.jpg?4921561085649337202) no-repeat center;
     background-size: cover;
     padding-top: 50%
 }
@@ -1300,7 +1300,7 @@ a.w-link:hover {
 }
 
 .pashmina-sec-0 {
-    background: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?1984122843782908454);
+    background: url(assets/safeed.jpg?1984122843782908454);
     background-size: cover;
     background-position: bottom
 }
@@ -1332,13 +1332,13 @@ a.w-link:hover {
 }
 
 .left1 {
-    background: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?5044730199290128820);
+    background: url(assets/kaarkhan.jpg?5044730199290128820);
     background-size: cover;
     background-position: center
 }
 
 .right1 {
-    background: url(https://purekashmir.com/cdn/shop/files/loom_772166ed-df43-4ddc-9476-bc8eb8ab2e1e.jpg?1984122843782908454);
+    background: url(assets/loom_772166ed-df43-4ddc-9476-bc8eb8ab2e1e.jpg?1984122843782908454);
     background-size: cover;
     background-position: center
 }
@@ -1355,19 +1355,19 @@ a.w-link:hover {
 }
 
 .left2 {
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_0650.JPG?1984122843782908454);
+    background: url(assets/DSC_0650.JPG?1984122843782908454);
     background-size: cover;
     background-position: center
 }
 
 .pashmina_kani {
-    background: url(https://purekashmir.com/cdn/shop/files/sozni_b325dcc4-8ad5-4a49-bcce-ab3e303a2dfa.jpg?7356259632856407469);
+    background: url(assets/sozni_b325dcc4-8ad5-4a49-bcce-ab3e303a2dfa.jpg?7356259632856407469);
     background-size: cover;
     background-position: center
 }
 
 .pashmina_sozni {
-    background: url(https://purekashmir.com/cdn/shop/files/kani.jpg?7356259632856407469);
+    background: url(assets/kani.jpg?7356259632856407469);
     background-size: cover;
     background-position: center
 }
@@ -1377,46 +1377,46 @@ a.w-link:hover {
 }
 
 .reversible-bg {
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_0799.jpg?12696236872840071768);
+    background: url(assets/DSC_0799.jpg?12696236872840071768);
     background-size: cover;
     background-position: center
 }
 
 .rev-row .left1 {
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_07919_ed5ede17-f16c-4575-92eb-737b79472205.jpg?6296414115363643088);
+    background: url(assets/DSC_07919_ed5ede17-f16c-4575-92eb-737b79472205.jpg?6296414115363643088);
     background-size: cover;
     background-position: center;
     transition: 0.5s all
 }
 
 .rev-row .left1:hover {
-    background: url(https://purekashmir.com/cdn/shop/files/3_963d45c0-d366-4cff-9004-6ffe731f5f3f.jpg?3097861306535343998);
+    background: url(assets/3_963d45c0-d366-4cff-9004-6ffe731f5f3f.jpg?3097861306535343998);
     background-size: cover;
     background-position: center
 }
 
 .rev-row .right1 {
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_0807_9f274888-c18e-43a7-8eeb-823d6ea14ec0.jpg?6296414115363643088);
+    background: url(assets/DSC_0807_9f274888-c18e-43a7-8eeb-823d6ea14ec0.jpg?6296414115363643088);
     background-size: cover;
     background-position: center;
     transition: 0.5s all
 }
 
 .rev-row .right1:hover {
-    background: url(https://purekashmir.com/cdn/shop/files/2_939ec79f-af38-47ea-9112-e21485d4fbe6.jpg?3097861306535343998);
+    background: url(assets/2_939ec79f-af38-47ea-9112-e21485d4fbe6.jpg?3097861306535343998);
     background-size: cover;
     background-position: center
 }
 
 .rev-row .left2 {
-    background: url(https://purekashmir.com/cdn/shop/files/DSC_0806_a4fcb3ae-2fe7-4d38-99c8-275c08cefa08.jpg?6296414115363643088);
+    background: url(assets/DSC_0806_a4fcb3ae-2fe7-4d38-99c8-275c08cefa08.jpg?6296414115363643088);
     background-size: cover;
     background-position: center;
     transition: 0.5s all
 }
 
 .rev-row .left2:hover {
-    background: url(https://purekashmir.com/cdn/shop/files/1_f4531cc1-3283-4d14-9e4e-d9c131a38b46.jpg?3097861306535343998);
+    background: url(assets/1_f4531cc1-3283-4d14-9e4e-d9c131a38b46.jpg?3097861306535343998);
     background-size: cover;
     background-position: center
 }
@@ -1558,17 +1558,17 @@ a.w-link:hover {
 }
 
 .hero-wrap-img{
-  background: url('https://purekashmir.com/cdn/shop/files/hero_3_kani.jpg?v=1654500178');
+  background: url('assets/hero_kw.jpg');
 }
 .hero-wrap-img20{
-  	background: url('https://purekashmir.com/cdn/shop/files/hero_11fbf6c1-d5bd-4e5c-a22e-73654a712c78.jpg?v=1597683692');
+  	background: url('assets/hero_11fbf6c1-d5bd-4e5c-a22e-73654a712c78.jpg?v=1597683692');
 }
 
 .jamawar-img{
-  	background: url('https://purekashmir.com/cdn/shop/files/jam.jpg?v=1607533185');
+  	background: url('assets/jam.jpg?v=1607533185');
 }
 .border-img.hero-wrap{
-  	background: url('https://purekashmir.com/cdn/shop/files/borders-all.jpg?v=1619596113');
+  	background: url('assets/borders-all.jpg?v=1619596113');
     background-position: top;
   	background-size: cover;
   	height: 140vh;
@@ -1583,12 +1583,12 @@ a.w-link:hover {
     position: relative;
 }
 .hero-wrap.reversible-img{
-  	background: url('https://purekashmir.com/cdn/shop/files/rev_45fa1232-9445-482e-852d-4e1c7a35337e.jpg?v=1612767394');
+  	background: url('assets/rev_45fa1232-9445-482e-852d-4e1c7a35337e.jpg?v=1612767394');
   background-position: bottom;
       background-size: cover;
 }
 .hero-wrap.checks-stripes-img{
-  	background: url('https://purekashmir.com/cdn/shop/files/check-wholesale.jpg?v=1613512618');
+  	background: url('assets/check-wholesale.jpg?v=1613512618');
   background-position: bottom;
       background-size: cover;
 }
@@ -1830,7 +1830,7 @@ a.w-link:hover {
 
 .loom-home-bg {
     position: relative;
-    background: url(https://purekashmir.com/cdn/shop/files/embroidery-sozni.jpg?v=1584956663);
+    background: url(assets/embroidery-sozni.jpg?v=1584956663);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1839,7 +1839,7 @@ a.w-link:hover {
     min-height: 70vh;
 }
 .kalamkari-home{
-	background: url('https://purekashmir.com/cdn/shop/files/DSC_0252_81783888-a861-46ac-9b6a-2cecdc35acbd.jpg?v=1597740362');
+	background: url('assets/DSC_0252_81783888-a861-46ac-9b6a-2cecdc35acbd.jpg?v=1597740362');
   	position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -1848,7 +1848,7 @@ a.w-link:hover {
     min-height: 80vh;
 }
 .tilla-home{
-	background: url('https://purekashmir.com/cdn/shop/files/tilla-banner.jpg?v=1597918520');
+	background: url('assets/tilla-banner.jpg?v=1597918520');
   	position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -1857,7 +1857,7 @@ a.w-link:hover {
     min-height: 110vh;
 }
 .border-home{
-	background: url('https://purekashmir.com/cdn/shop/files/border-em_5933211b-2030-4653-bf17-678aed84def1.jpg?v=1598774780');
+	background: url('assets/border-em_5933211b-2030-4653-bf17-678aed84def1.jpg?v=1598774780');
   	position: relative;
     background-position: top;
     background-repeat: no-repeat;
@@ -1866,7 +1866,7 @@ a.w-link:hover {
     min-height: 110vh;
 }
 .jali-home{
-	background: url('https://purekashmir.com/cdn/shop/files/jali-emb-full.jpg?v=1598768402');
+	background: url('assets/jali-emb-full.jpg?v=1598768402');
   	position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -1875,7 +1875,7 @@ a.w-link:hover {
     min-height: 110vh;
 }
 .oversized-home{
-	background: url('https://purekashmir.com/cdn/shop/files/DSC_0490.jpg?v=1598420487');
+	background: url('assets/DSC_0490.jpg?v=1598420487');
   	position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -2113,7 +2113,7 @@ a.anchor-light:after, a.anchor-light:before {
   	transition: 0.3s ease;
 }
 a.anchor-light:before{
-	-webkit-mask-image: url(https://purekashmir.com/cdn/shop/files/right-arrow.svg);
+	-webkit-mask-image: url(assets/right-arrow.svg);
     -webkit-mask-size: 20px;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
@@ -2414,7 +2414,7 @@ a.anchor-light:before{
 .blog-bg {
     width: 100%;
     padding-top: 40%;
-    background: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?3619584588930241880);
+    background: url(assets/safeed.jpg?3619584588930241880);
     background-position: center;
     background-size: cover;
     background-attachment: fixed
@@ -2422,7 +2422,7 @@ a.anchor-light:before{
 .blog-bg1 {
     width: 100%;
     padding-top: 40%;
-    background: url(https://purekashmir.com/cdn/shop/files/phamb.jpg?3619584588930241880);
+    background: url(assets/phamb.jpg?3619584588930241880);
     background-position: center;
     background-size: cover;
     background-attachment: fixed
@@ -2430,7 +2430,7 @@ a.anchor-light:before{
 .blog-bg0 {
     width: 100%;
     padding-top: 40%;
-    background: url(https://purekashmir.com/cdn/shop/files/kath.jpg?3619584588930241880);
+    background: url(assets/kath.jpg?3619584588930241880);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -2439,7 +2439,7 @@ a.anchor-light:before{
 .blog-bg01 {
     width: 100%;
     padding-top: 40%;
-    background: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?3619584588930241880);
+    background: url(assets/kaarkhan.jpg?3619584588930241880);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -2448,7 +2448,7 @@ a.anchor-light:before{
 .blog-bg2 {
     width: 100%;
     padding-top: 40%;
-    background: url(https://purekashmir.com/cdn/shop/files/sozni_b325dcc4-8ad5-4a49-bcce-ab3e303a2dfa.jpg?3619584588930241880);
+    background: url(assets/sozni_b325dcc4-8ad5-4a49-bcce-ab3e303a2dfa.jpg?3619584588930241880);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -2457,7 +2457,7 @@ a.anchor-light:before{
 .blog-bg3 {
     width: 100%;
     padding-top: 40%;
-    background: url(https://purekashmir.com/cdn/shop/files/kani.jpg?3619584588930241880);
+    background: url(assets/kani.jpg?3619584588930241880);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -2671,12 +2671,12 @@ a.anchor-light:before{
     color: #666
 }
 .wholesale-home-banner {
-    background-image: url(https://purekashmir.com/cdn/shop/files/banner-wholesale-home.jpg?8820790399781522926)
+    background-image: url(assets/banner-wholesale-home.jpg?8820790399781522926)
 }
 .collection-container {
     width: 100%;
     min-height: 350px;
-    background: url(https://purekashmir.com/cdn/shop/files/check_947f3c46-749d-4cd2-ba56-333310274b2b.jpg?10443082606448641641) fixed no-repeat center center;
+    background: url(assets/check_947f3c46-749d-4cd2-ba56-333310274b2b.jpg?10443082606448641641) fixed no-repeat center center;
     background-size: cover;
     position: relative
 }
@@ -2869,10 +2869,10 @@ a.anchor-light:before{
     background-size: cover
 }
 .mens-b-1 {
-    background-image: url(https://purekashmir.com/cdn/shop/files/safeed.jpg?11156056784768923654)
+    background-image: url(assets/safeed.jpg?11156056784768923654)
 }
 .mens-b-2 {
-    background-image: url(https://purekashmir.com/cdn/shop/files/kaarkhan.jpg?11156056784768923654);
+    background-image: url(assets/kaarkhan.jpg?11156056784768923654);
     margin: 30px 0
 }
 .hero-inner {
@@ -2969,14 +2969,14 @@ a.anchor-light:before{
   width: 100%;
 }
 .reversible-image{
-	background-image: url('https://purekashmir.com/cdn/shop/files/DSC_0419.jpg?v=1595310021');
+	background-image: url('assets/DSC_0419.jpg?v=1595310021');
   	background-position: center;
   	background-size: cover;
   	background-attachment: fixed;
   	height: 300px;
 }
 .kani-image{
-	background-image: url('https://purekashmir.com/cdn/shop/files/kani-making.jpg?v=1523782365');
+	background-image: url('assets/kani-making.jpg?v=1523782365');
   	background-position: center;
   	background-size: cover;
   	background-attachment: fixed;
@@ -3054,7 +3054,7 @@ a.anchor-light:before{
 .product-origin {
     min-height: 450px;
     width: 100%;
-    background: url("https://purekashmir.com/cdn/shop/files/goat.jpg?575");
+    background: url("assets/goat.jpg?575");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -3147,7 +3147,7 @@ a.anchor-light:before{
 .carpet-main-image{
 	width: 100%;
   	height: 100vh;
-  background: url('https://purekashmir.com/cdn/shop/files/carpet-main.jpeg?v=1589191701');
+  background: url('assets/carpet-main.jpeg?v=1589191701');
   background-size: cover;
 }
 .carpet-heading{
@@ -3175,7 +3175,7 @@ a.anchor-light:before{
 .carpet-intro-bg{
 	width: 100%;
   	height: 90vh;
-  	background: url('https://purekashmir.com/cdn/shop/files/carpet-making_21.jpg?v=1589186940');
+  	background: url('assets/carpet-making_21.jpg?v=1589186940');
   	background-size: cover;
   	background-attachment: fixed;
 }
@@ -3401,7 +3401,7 @@ a.anchor-light:before{
 .home-sec-heading > h3 > .elipses:before{
 	content: "";
     position: absolute;
-    background: url(https://purekashmir.com/cdn/shop/files/Ellipse4.svg?v=1617031705);
+    background: url(assets/Ellipse4.svg?v=1617031705);
     width: 8%;
     height: 80%;
     top: 5%;
@@ -3414,7 +3414,7 @@ a.anchor-light:before{
 .home-sec-heading > h3 > .elipses:after{
 	content: "";
     position: absolute;
-    background: url(https://purekashmir.com/cdn/shop/files/Ellipse4.svg?v=1617031705);
+    background: url(assets/Ellipse4.svg?v=1617031705);
     width: 8%;
     height: 80%;
     top: 50%;

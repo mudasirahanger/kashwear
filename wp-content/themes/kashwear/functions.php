@@ -23,6 +23,7 @@
                 'search_items' => 'Search Products',
                 'not_found' => 'No Products found',
                 'not_found_in_trash' => 'No Products found in Trash',
+                
             ),
             'public' => true,
             'has_archive' => true,
@@ -30,6 +31,7 @@
             'rewrite' => array( 'slug' => 'products' ),
             'menu_position' => 3,
             'menu_icon' => 'dashicons-products',
+            'taxonomies'  => array( 'category' ),
         )
     );
 }
@@ -74,7 +76,7 @@ add_action( 'after_setup_theme', 'register_my_menu' );
 
 
 /* front end html module */
-function get_html_modules() {
+function get_html_modules($module_id) {
     // Custom Query to retrieve HTML Modules
     $args = array(
         'post_type' => 'html_module',
@@ -212,3 +214,87 @@ function remove_wordpress_dropdown_menu() {
 add_action('wp_before_admin_bar_render', 'remove_wordpress_dropdown_menu');
 
 
+add_theme_support( 'post-thumbnails' );
+
+
+
+function register_featured_meta_box() {
+    add_meta_box(
+        'featured_meta_box',
+        'Featured Post',
+        'render_featured_meta_box',
+        'products',
+        'side',
+        'default'
+    );
+}
+add_action('add_meta_boxes', 'register_featured_meta_box');
+
+function render_featured_meta_box($post) {
+    $is_featured = get_post_meta($post->ID, '_featured', true);
+    wp_nonce_field('featured_meta_box', 'featured_meta_box_nonce');
+    ?>
+    <label for="featured-checkbox">
+        <input type="checkbox" name="featured-checkbox" id="featured-checkbox" <?php checked($is_featured, 'on'); ?>>
+        Mark as Featured
+    </label>
+    <?php
+}
+
+function save_featured_meta_box($post_id) {
+    if (!isset($_POST['featured_meta_box_nonce']) || !wp_verify_nonce($_POST['featured_meta_box_nonce'], 'featured_meta_box')) {
+        return;
+    }
+
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    $is_featured = isset($_POST['featured-checkbox']) ? 'on' : 'off';
+    update_post_meta($post_id, '_featured', $is_featured);
+}
+add_action('save_post', 'save_featured_meta_box');
+
+
+
+function get_featured_products() {
+    $args = array(
+        'post_type' => 'products', // Replace 'products' with your custom post type slug
+        'meta_query' => array(
+            array(
+                'key' => '_featured',
+                'value' => 'on',
+                'compare' => '='
+            )
+            ),
+        'posts_per_page' => 6,
+    );
+
+    $query = new WP_Query($args);
+
+    if ($query->have_posts()) {
+        echo '<div class="container home-intro-products">';
+        echo '<div class="row flex-wrap home-collection-flex">';
+        while ($query->have_posts()) {
+            $query->the_post();
+          
+            // Display the featured product data
+           echo '<div class="col-4">';
+           echo '<a href="'.get_permalink().'">';
+           the_post_thumbnail('medium_large');
+           echo '</a>';
+           echo '</div>';         
+
+            // Customize the display as needed
+        }
+        echo '</div>';
+        echo '</div>';
+        wp_reset_postdata();
+    } else {
+        echo 'No featured products found.';
+    }
+}

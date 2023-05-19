@@ -14,24 +14,20 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/script.js" /></script>
 </head>
-
 <body class="template-index jsforms">
     <div id="pageheader">
         <div id="mobile-header" class="cf">
             <button class="notabutton mobile-nav-toggle"><span></span><span></span><span></span></button>
             <div class="logo">
-                <a href="/" title="kashwear.com">
+                <a href="<?php echo home_url(); ?>" title="kashwear.com">
                     <img class="logoimage" src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="kashwear.com">
                 </a>
             </div><!-- /#logo -->
-            <a href="https://kashwear.com/cart" class="cart-count button">
-                <i class="icon-cart"></i> (0)
-            </a>
         </div>
         <div class="logo-area logo-pos- cf">
             <div class="container">
                 <div class="logo">
-                    <a href="/" title="kashwear.com">
+                    <a href="<?php echo home_url(); ?>" title="kashwear.com">
                         <img class="logoimage" src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="kashwear.com">
                     </a>
                 </div><!-- /#logo -->
@@ -53,31 +49,35 @@
                             <li class="instagram"><a href="https://instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
-                    <div class="cart-summary">
-                        <a href="https://kashwear.com/cart" class="cart-count button">
-                            Cart (0)
-                        </a>
-                        <!-- <div class="switcher">
-                            <span class="selected-currency">USD</span>
-                            <div class="switcher-drop">
-                                <div class="inner">
-                                    <label for="currencies">Pick a currency </label>
-                                    <select id="currencies" name="currencies">
-                                        <option value="USD" selected="selected">USD</option>
-                                        <option value="CAD">CAD</option>
-                                        <option value="GBP">GBP</option>
-                                        <option value="INR">INR</option>
-                                        <option value="EUR">EUR</option>
-                                        <option value="AUD">AUD</option>
-                                        <option value="NZD">NZD</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div> -->
-
-                    </div>
+                    
                 </div><!-- /.utils -->
             </div><!-- /.util-area -->
 
         </div><!-- /.logo-area -->
     </div>
+<!-- menu -->
+    <div id="main-nav" class="nav-row">
+    <div class="mobile-features">
+        <form class="mobile-search" action="/search" method="get">
+            <i></i>
+            <input type="text" name="q" placeholder="Search">
+            <button type="submit" class="notabutton"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <div class="multi-level-nav">
+        <div class="tier-1">
+                 <?php
+                   display_menu_items();
+                    ?>         
+            <div class="mobile-social">
+                <div class="social-links">
+                    <ul>
+                        <li class="facebook"><a href="https://facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="pinterest"><a href="https://pinterest.com/" target="_blank" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                        <li class="instagram"><a href="https://instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
