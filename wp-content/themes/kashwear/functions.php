@@ -298,3 +298,55 @@ function get_featured_products() {
         echo 'No featured products found.';
     }
 }
+
+// get post by category
+add_theme_support('post-thumbnails');
+function get_category_with_posts($category_id) {
+    $category = get_category($category_id);
+    
+    if ($category) {
+        $posts = get_posts(array(
+            'category' => $category_id,
+            'post_type' => 'products',
+            'post_status' => 'publish',
+            'meta_key' => '_thumbnail_id',
+            'posts_per_page' => 5 // Retrieve all posts in the category
+        ));
+        
+        return array(
+            'category' => $category,
+            'posts' => $posts
+        );
+    }
+    
+    return null;
+}
+
+function get_featured_Categories($category_id) {
+    $data = get_category_with_posts($category_id); // Replace 123 with the actual category ID
+    if ($data) {
+        $category = $data['category'];
+        $posts = $data['posts'];
+        echo '<div class="container home-intro-products">';           
+          echo '<div class="row flex-wrap home-collection-flex">';
+          echo '  <div class="col-4 text-col">';
+          echo '   <div class="home-collection-text-wrapper">';
+          echo '    <h3> '. $category->name .'</h3>';
+          echo '     <p>'. $category->description .'</p>';
+          echo '              <a href="'.get_category_link($category->term_id).'">View Collection</a>';
+          echo '            </div>';
+          echo '          </div>';
+        foreach ($posts as $post) {
+          echo '<div class="col-4">';
+          echo '<a href="' . get_permalink() . '">';
+          echo '<img src="' .get_the_post_thumbnail_url($post->ID). '">';
+          echo ' </a>';
+          echo '</div>';
+        }
+        echo '</div>'; 
+        echo '</div>'; 
+    } else {
+        echo 'Category not found.';
+    }
+}
+

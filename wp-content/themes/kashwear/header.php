@@ -3,7 +3,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php wp_title(); ?></title>
+    <title>kashwear <?php wp_title(); ?></title>
     <?php wp_head(); ?>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
