@@ -30,7 +30,37 @@ $products_query = new WP_Query($args);
 
 ?>
 <div class="collection-row">
-    <!-- <div class="column-collection-filter" ></div> -->
+    <div class="column-collection-filter">
+        <div style="position: -webkit-sticky;
+    position: sticky;
+    top: 10px;">
+    <div class="tags nav-row cat-normal mobile-hidden">
+    <?php 
+     $current_category = get_queried_object();
+     if ($current_category) {
+         $args = array(
+             'taxonomy' => 'category',
+             'child_of' => $current_category->term_id,
+             'hide_empty' => 0,
+         );
+         $categories = get_categories($args);         
+          echo '<ul>';
+          if ($categories) {
+                  echo '<li><a href="' . get_category_link($category_id) . '">All</a></li>';
+              foreach ($categories as $category) {
+                  echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
+             }
+          echo '</ul>';        
+            } else {
+                echo '<li><a href="' . get_category_link($category_id) . '">All</a></li>';
+            }
+        } else {
+
+        }
+    ?>
+      </div>
+        </div>
+    </div>
     <div class="column-collection-products">
         <div class="collection-listing kani-collection-list embroidery-list cf">
             <div class="product-list">

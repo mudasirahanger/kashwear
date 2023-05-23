@@ -349,4 +349,4 @@ function get_featured_Categories($category_id) {
         echo 'Category not found.';
     }
 }
-
+//sidebar
